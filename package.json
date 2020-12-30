@@ -1,0 +1,22 @@
+{
+  "name": "smartorganization-miniprogram",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "dependencies": {
+    "cos-wx-sdk-v5": "^1.0.5",
+    "dayjs": "^1.9.7",
+    "js-pinyin": "^0.1.9",
+    "tim-wx-sdk": "^2.9.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://115.233.227.46:8066/passer/smartOrganization-miniProgram.git"
+  },
+  "author": "",
+  "license": "ISC"
+}

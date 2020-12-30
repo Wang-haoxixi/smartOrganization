@@ -1,0 +1,338 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/community/home/home",
+			"style": {
+				"navigationBarTitleText": "群落",
+				"enablePullDownRefresh":true
+			}
+		},
+		{
+			"path": "pages/my/myMien/myMien",
+			"onReachBottomDistance":-500,
+			"style": {
+				"navigationBarTitleText": "个人风采页",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom",
+				"navigationBarTextStyle": "white"
+			}
+
+		},
+		{
+			"path": "pages/my/personalInfo/personalInfo",
+			"style": {
+				"navigationBarTitleText": "个人信息",
+				"navigationBarBackgroundColor": "#FFFFFF"
+			}
+
+		},
+
+		{
+			"path": "pages/report/report",
+			"style": {
+				"navigationBarTitleText": "举报详情",
+				"navigationBarBackgroundColor": "#FFFFFF"
+			}
+
+		},
+
+		{
+			"path": "pages/getUserInfo/getUserInfo",
+			"style": {
+				"navigationBarTitleText": "授权用户信息"
+			}
+		},
+
+		// #ifdef MP-WEIXIN
+		{
+			"path": "pages/getPhoneNumber/getPhoneNumber",
+			"style": {
+				"navigationBarTitleText": "授权手机号码"
+			}
+		},
+		// #endif
+		// #ifdef MP-QQ	
+		{
+			"path": "pages/getPhoneNumber/getQQPhoneNumber",
+			"style": {
+				"navigationBarTitleText": "授权手机号码"
+			}
+		},
+		// #endif
+
+		{
+			"path": "pages/chat/chatList/chatList",
+			"style": {
+				"navigationBarTitleText": "消息",
+				"enablePullDownRefresh": false
+			}
+		}, {
+			"path": "pages/chat/chatRoom/chatRoom",
+			"style": {
+				"navigationBarTitleText": "消息",
+				"enablePullDownRefresh": false
+			}
+
+		}
+
+		, {
+			"path": "pages/my/personalInfo/editInfo/editInfo",
+			"style": {
+				"navigationBarTitleText": "编辑信息",
+				"navigationBarBackgroundColor": "#FFFFFF"
+			}
+
+		},
+		{
+			"path": "pages/my/personalInfo/contentManager/contentManager",
+			"style": {
+				"navigationBarTitleText": "内容管理",
+				"enablePullDownRefresh": false
+			}
+
+		},
+		{
+			"path": "pages/my/personalInfo/nengbei/nengbei",
+			"style": {
+				"navigationBarTitleText": "能贝",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/my/personalInfo/attention/attention",
+			"style": {
+				"navigationBarTitleText": "关注",
+				"navigationBarBackgroundColor": "#FFFFFF"
+			}
+
+		}, {
+			"path": "pages/my/personalInfo/collect/collect",
+			"style": {
+				"navigationBarTitleText": "收藏",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/my/personalInfo/about/about",
+			"style": {
+				"navigationBarTitleText": "关于我能平台",
+				"navigationBarBackgroundColor": "#FFFFFF"
+			}
+
+		}, {
+			"path": "pages/my/personalInfo/editInfo/setName/setName",
+			"style": {
+				"navigationBarTitleText": "设置名称",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/my/personalInfo/editInfo/individualResume/individualResume",
+			"style": {
+				"navigationBarTitleText": "个人简介",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/group/home/home",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		}, {
+			"path": "pages/community/home/ownerGroupLIst/ownerGroupLIst",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": true
+			}
+		}, {
+			"path": "pages/community/home/globalSearch/globalSearch",
+			"style": {
+				"navigationBarTitleText": "搜索"
+			}
+		}, {
+			"path": "pages/community/home/globalSearch/searchPersonList/searchPersonList",
+			"style": {
+				"navigationBarTitleText": "搜索",
+				"onReachBottomDistance":100
+			}
+		}, {
+			"path": "pages/community/home/createGroup/createGroup",
+			"style": {
+				"navigationBarTitleText": ""
+			}
+		}, {
+			"path": "pages/community/home/thoughtsDetails/thoughtsDetails",
+			"style": {
+				"navigationBarTitleText": "内容详情"
+			}
+		}, {
+			"path": "pages/community/home/thoughtsDetails/praisePersonList/praisePersonList",
+			"style": {
+				"navigationBarTitleText": "赞过的人"
+			}
+		}, {
+			"path": "pages/group/home/groupFunctions/groupFunctions",
+			"style": {
+				"navigationBarTitleText": "全部功能"
+			}
+		}, {
+			"path": "pages/group/home/publish/publish",
+			"style": {
+				"navigationBarTitleText": "发布"
+			}
+		}, {
+			"path": "pages/group/home/publish/publishLink/publishLink",
+			"style": {
+				"navigationBarTitleText": "发布"
+			}
+		}, {
+			"path": "pages/chat/friendList/friendList",
+			"style": {
+				"navigationBarTitleText": "好友列表",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/group/home/groupDetails/groupDetails",
+			"style": {
+				"navigationBarTitleText": "介绍"
+			}
+		}, {
+			"path": "pages/group/home/groupDetails/groupList/groupList",
+			"style": {
+				"navigationBarTitleText": "介绍"
+			}
+		}, {
+			"path": "pages/group/home/manageGroup/manageGroup",
+			"style": {
+				"navigationBarTitleText": "管理"
+			}
+		}, {
+			"path": "pages/group/home/manageGroup/editGroupInfo/editGroupInfo",
+			"style": {
+				"navigationBarTitleText": "编辑群组信息"
+			}
+		}, {
+			"path": "pages/group/home/manageGroup/editGroupInfo/editGroupBgImg/editGroupBgImg",
+			"style": {
+				"navigationBarTitleText": "背景图"
+			}
+		}, {
+			"path": "pages/group/home/manageGroup/editGroupInfo/editGroupIntroduction/editGroupIntroduction",
+			"style": {
+				"navigationBarTitleText": "介绍语"
+			}
+		}, {
+			"path": "pages/group/home/manageGroup/contentManage/contentManage",
+			"style": {
+				"navigationBarTitleText": "内容管理"
+			}
+		}, {
+			"path": "pages/group/home/manageGroup/noticeManage/noticeManage",
+			"style": {
+				"navigationBarTitleText": "公告"
+			}
+
+		}, {
+			"path": "pages/group/home/manageGroup/noticeManage/addNotice/addNotice",
+			"style": {}
+		}, {
+			"path": "pages/group/home/manageGroup/membersManage/membersManage",
+			"style": {
+				"navigationBarTitleText": "成员列表"
+			}
+
+		}, {
+			"path": "pages/group/home/manageGroup/noticeManage/noticeDetail/noticeDetail",
+			"style": {
+				"navigationBarTitleText": "公告"
+			}
+		}, {
+			"path": "pages/group/home/dataAssets/dataAssets",
+			"style": {
+				"navigationBarTitleText": "数据资产"
+			}
+		}, {
+			"path": "pages/group/home/dataAssets/assetsRule/assetsRule",
+			"style": {
+				"navigationBarTitleText": "规则"
+			}
+		}, {
+			"path": "pages/my/personalInfo/nengbei/billList/billList",
+			"style": {
+				"navigationBarTitleText": "账单",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/my/personalInfo/nengbei/billDetails/billDetails",
+			"style": {
+				"navigationBarTitleText": "账单详情",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/webView/webView",
+			"style": {}
+		}, {
+			"path": "pages/chat/waitDeal/waitDeal",
+			"style": {
+				"navigationBarTitleText": "待处理",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/chat/tip/tip",
+			"style": {
+				"navigationBarTitleText": "提醒",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/community/home/thoughtsDetails/commentDetails/commentDetails",
+			"style": {
+				"navigationBarTitleText": "评论详情"
+			}
+		}, {
+			"path": "pages/my/personalInfo/partner/partner",
+			"style": {
+				"navigationBarTitleText": "合伙人等级",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/chat/waitDeal/detail/detail",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#FFFFFF"
+			}
+
+		}
+	    ,{
+            "path" : "pages/community/showModal/showModal",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/my/myMien/set/set",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "设置",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/group/home/manageGroup/editGroupInfo/editGroupName/editGroupName",
+            "style" : {
+				"navigationBarTitleText": "名称"
+			}
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "智慧群组",
+		"navigationBarBackgroundColor": "#F4F5F6",
+		"backgroundColor": "#F4F5F6"
+	}
+}
